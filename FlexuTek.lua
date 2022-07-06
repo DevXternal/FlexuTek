@@ -1,53 +1,104 @@
---{ FlexuTek made by DevXternal & Nexus }--
+--[[
+:::::::::: :::        :::::::::: :::    ::: :::    ::: ::::::::::: :::::::::: :::    ::: 
+:+:        :+:        :+:        :+:    :+: :+:    :+:     :+:     :+:        :+:   :+:  
++:+        +:+        +:+         +:+  +:+  +:+    +:+     +:+     +:+        +:+  +:+   
+:#::+::#   +#+        +#++:++#     +#++:+   +#+    +:+     +#+     +#++:++#   +#++:++    
++#+        +#+        +#+         +#+  +#+  +#+    +#+     +#+     +#+        +#+  +#+   
+#+#        #+#        #+#        #+#    #+# #+#    #+#     #+#     #+#        #+#   #+#  
+###        ########## ########## ###    ###  ########      ###     ########## ###    ### 
+
+Version 3
+Made by Nexus & DevXternal
+]]--
 
 -- Instances:
 
 local FlexuTek = Instance.new("ScreenGui")
 local LolzLol = Instance.new("Frame")
-local UIGradient = Instance.new("UIGradient")
 local UICorner = Instance.new("UICorner")
 local Close = Instance.new("TextButton")
 local UICorner_2 = Instance.new("UICorner")
 local TextLabel = Instance.new("TextLabel")
-local UIGradient_2 = Instance.new("UIGradient")
-local Reset = Instance.new("TextButton")
+local UIGradient = Instance.new("UIGradient")
+local ClosePage = Instance.new("TextButton")
 local UICorner_3 = Instance.new("UICorner")
-local PageButton2 = Instance.new("TextButton")
-local UICorner_4 = Instance.new("UICorner")
 local Page1 = Instance.new("Frame")
 local Fly = Instance.new("TextButton")
-local UICorner_5 = Instance.new("UICorner")
+local UICorner_4 = Instance.new("UICorner")
 local InfJump = Instance.new("TextButton")
-local UICorner_6 = Instance.new("UICorner")
+local UICorner_5 = Instance.new("UICorner")
 local SUS = Instance.new("TextButton")
-local UICorner_7 = Instance.new("UICorner")
+local UICorner_6 = Instance.new("UICorner")
 local Speed = Instance.new("TextButton")
-local UICorner_8 = Instance.new("UICorner")
+local UICorner_7 = Instance.new("UICorner")
 local namelessv4 = Instance.new("TextButton")
-local UICorner_9 = Instance.new("UICorner")
+local UICorner_8 = Instance.new("UICorner")
 local chezburger = Instance.new("TextButton")
-local UICorner_10 = Instance.new("UICorner")
+local UICorner_9 = Instance.new("UICorner")
 local TextLabel_2 = Instance.new("TextLabel")
-local UIGradient_3 = Instance.new("UIGradient")
-local PageButton1 = Instance.new("TextButton")
-local UICorner_11 = Instance.new("UICorner")
+local UIGradient_2 = Instance.new("UIGradient")
 local Page2 = Instance.new("Frame")
 local TextLabel_3 = Instance.new("TextLabel")
-local UIGradient_4 = Instance.new("UIGradient")
+local UIGradient_3 = Instance.new("UIGradient")
 local CMDX = Instance.new("TextButton")
-local UICorner_12 = Instance.new("UICorner")
+local UICorner_10 = Instance.new("UICorner")
 local SussyHub = Instance.new("TextButton")
-local UICorner_13 = Instance.new("UICorner")
+local UICorner_11 = Instance.new("UICorner")
 local NexusHub = Instance.new("TextButton")
-local UICorner_14 = Instance.new("UICorner")
+local UICorner_12 = Instance.new("UICorner")
 local SuperHuman = Instance.new("TextButton")
-local UICorner_15 = Instance.new("UICorner")
+local UICorner_13 = Instance.new("UICorner")
 local FreeHatHub = Instance.new("TextButton")
-local UICorner_16 = Instance.new("UICorner")
+local UICorner_14 = Instance.new("UICorner")
 local Chat = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local OpenPage = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local Reset = Instance.new("TextButton")
 local UICorner_17 = Instance.new("UICorner")
-local Credits = Instance.new("TextButton")
+local PageSelector = Instance.new("Frame")
 local UICorner_18 = Instance.new("UICorner")
+local TextLabel_4 = Instance.new("TextLabel")
+local UIGradient_4 = Instance.new("UIGradient")
+local Updates = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local Credits = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local Page2_2 = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local Page1_2 = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local PageSelectorFrame1 = Instance.new("Frame")
+local UICorner_23 = Instance.new("UICorner")
+local PageSelectorFrame2 = Instance.new("Frame")
+local UICorner_24 = Instance.new("UICorner")
+local PageSelectorFrame3 = Instance.new("Frame")
+local UICorner_25 = Instance.new("UICorner")
+local PageSelectorFrame4 = Instance.new("Frame")
+local UICorner_26 = Instance.new("UICorner")
+local PageCredits = Instance.new("Frame")
+local TextLabel_5 = Instance.new("TextLabel")
+local UIGradient_5 = Instance.new("UIGradient")
+local TextLabel_6 = Instance.new("TextLabel")
+local UIGradient_6 = Instance.new("UIGradient")
+local TextLabel_7 = Instance.new("TextLabel")
+local UIGradient_7 = Instance.new("UIGradient")
+local PageUpdates = Instance.new("Frame")
+local TextLabel_8 = Instance.new("TextLabel")
+local UIGradient_8 = Instance.new("UIGradient")
+local TextLabel_9 = Instance.new("TextLabel")
+local TextLabel_10 = Instance.new("TextLabel")
+local TextLabel_11 = Instance.new("TextLabel")
+local Login = Instance.new("Frame")
+local UICorner_27 = Instance.new("UICorner")
+local TextLabel_12 = Instance.new("TextLabel")
+local UIGradient_9 = Instance.new("UIGradient")
+local Check = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local Username = Instance.new("TextBox")
+local UICorner_29 = Instance.new("UICorner")
+local Key = Instance.new("TextBox")
+local UICorner_30 = Instance.new("UICorner")
 
 --Properties:
 
@@ -58,13 +109,10 @@ FlexuTek.ResetOnSpawn = false
 
 LolzLol.Name = "Lolz.Lol"
 LolzLol.Parent = FlexuTek
-LolzLol.BackgroundColor3 = Color3.fromRGB(98, 104, 161)
+LolzLol.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 LolzLol.Position = UDim2.new(0.217412069, 0, 0.134836435, 0)
 LolzLol.Size = UDim2.new(0, 407, 0, 255)
-
-UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(17, 0, 255)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 204, 0))}
-UIGradient.Rotation = 22
-UIGradient.Parent = LolzLol
+LolzLol.Visible = false
 
 UICorner.CornerRadius = UDim.new(0, 10)
 UICorner.Parent = LolzLol
@@ -87,53 +135,40 @@ UICorner_2.Parent = Close
 TextLabel.Parent = LolzLol
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.BackgroundTransparency = 1.000
-TextLabel.Size = UDim2.new(0, 136, 0, 44)
+TextLabel.Size = UDim2.new(0, 136, 0, 50)
 TextLabel.Font = Enum.Font.Oswald
-TextLabel.Text = "FlexuTek v2"
+TextLabel.Text = "FlexuTek v3"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextScaled = true
-TextLabel.TextSize = 14.000
+TextLabel.TextSize = 36.000
 TextLabel.TextWrapped = true
 
-UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 247, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(115, 255, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
-UIGradient_2.Rotation = 90
-UIGradient_2.Parent = TextLabel
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 247, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(115, 255, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient.Rotation = 90
+UIGradient.Parent = TextLabel
 
-Reset.Name = "Reset"
-Reset.Parent = LolzLol
-Reset.BackgroundColor3 = Color3.fromRGB(4, 255, 0)
-Reset.Position = UDim2.new(0.724815726, 0, 0.0313725509, 0)
-Reset.Size = UDim2.new(0, 34, 0, 28)
-Reset.Font = Enum.Font.SourceSans
-Reset.Text = "RE"
-Reset.TextColor3 = Color3.fromRGB(0, 0, 0)
-Reset.TextScaled = true
-Reset.TextSize = 14.000
-Reset.TextWrapped = true
+ClosePage.Name = "ClosePage"
+ClosePage.Parent = LolzLol
+ClosePage.BackgroundColor3 = Color3.fromRGB(4, 255, 0)
+ClosePage.Position = UDim2.new(0.899262905, 0, 0.854901969, 0)
+ClosePage.Size = UDim2.new(0, 34, 0, 28)
+ClosePage.Visible = false
+ClosePage.Font = Enum.Font.SourceSans
+ClosePage.Text = "<"
+ClosePage.TextColor3 = Color3.fromRGB(0, 0, 0)
+ClosePage.TextScaled = true
+ClosePage.TextSize = 14.000
+ClosePage.TextWrapped = true
 
-UICorner_3.Parent = Reset
-
-PageButton2.Name = "PageButton2"
-PageButton2.Parent = LolzLol
-PageButton2.BackgroundColor3 = Color3.fromRGB(4, 255, 0)
-PageButton2.Position = UDim2.new(0.830466807, 0, 0.0313725509, 0)
-PageButton2.Size = UDim2.new(0, 34, 0, 28)
-PageButton2.Font = Enum.Font.SourceSans
-PageButton2.Text = ">"
-PageButton2.TextColor3 = Color3.fromRGB(0, 0, 0)
-PageButton2.TextScaled = true
-PageButton2.TextSize = 14.000
-PageButton2.TextWrapped = true
-
-UICorner_4.Parent = PageButton2
+UICorner_3.Parent = ClosePage
 
 Page1.Name = "Page1"
 Page1.Parent = LolzLol
 Page1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Page1.BackgroundTransparency = 1.000
+Page1.BorderSizePixel = 0
 Page1.Position = UDim2.new(0.0122764641, 0, 0.196078435, 0)
 Page1.Size = UDim2.new(0, 396, 0, 196)
-Page1.Visible = false
 
 Fly.Name = "Fly"
 Fly.Parent = Page1
@@ -147,7 +182,7 @@ Fly.TextScaled = true
 Fly.TextSize = 14.000
 Fly.TextWrapped = true
 
-UICorner_5.Parent = Fly
+UICorner_4.Parent = Fly
 
 InfJump.Name = "InfJump"
 InfJump.Parent = Page1
@@ -161,7 +196,7 @@ InfJump.TextScaled = true
 InfJump.TextSize = 14.000
 InfJump.TextWrapped = true
 
-UICorner_6.Parent = InfJump
+UICorner_5.Parent = InfJump
 
 SUS.Name = "SUS"
 SUS.Parent = Page1
@@ -176,7 +211,7 @@ SUS.TextScaled = true
 SUS.TextSize = 14.000
 SUS.TextWrapped = true
 
-UICorner_7.Parent = SUS
+UICorner_6.Parent = SUS
 
 Speed.Name = "Speed"
 Speed.Parent = Page1
@@ -190,7 +225,7 @@ Speed.TextScaled = true
 Speed.TextSize = 14.000
 Speed.TextWrapped = true
 
-UICorner_8.Parent = Speed
+UICorner_7.Parent = Speed
 
 namelessv4.Name = "nameless v4"
 namelessv4.Parent = Page1
@@ -204,7 +239,7 @@ namelessv4.TextScaled = true
 namelessv4.TextSize = 14.000
 namelessv4.TextWrapped = true
 
-UICorner_9.Parent = namelessv4
+UICorner_8.Parent = namelessv4
 
 chezburger.Name = "chezburger"
 chezburger.Parent = Page1
@@ -218,7 +253,7 @@ chezburger.TextScaled = true
 chezburger.TextSize = 14.000
 chezburger.TextWrapped = true
 
-UICorner_10.Parent = chezburger
+UICorner_9.Parent = chezburger
 
 TextLabel_2.Parent = Page1
 TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -232,31 +267,18 @@ TextLabel_2.TextScaled = true
 TextLabel_2.TextSize = 14.000
 TextLabel_2.TextWrapped = true
 
-UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 247, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(115, 255, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
-UIGradient_3.Rotation = 90
-UIGradient_3.Parent = TextLabel_2
-
-PageButton1.Name = "PageButton1"
-PageButton1.Parent = LolzLol
-PageButton1.BackgroundColor3 = Color3.fromRGB(4, 255, 0)
-PageButton1.Position = UDim2.new(0.830466807, 0, 0.0313725509, 0)
-PageButton1.Size = UDim2.new(0, 34, 0, 28)
-PageButton1.Visible = false
-PageButton1.Font = Enum.Font.SourceSans
-PageButton1.Text = "<"
-PageButton1.TextColor3 = Color3.fromRGB(0, 0, 0)
-PageButton1.TextScaled = true
-PageButton1.TextSize = 14.000
-PageButton1.TextWrapped = true
-
-UICorner_11.Parent = PageButton1
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 247, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(115, 255, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_2.Rotation = 90
+UIGradient_2.Parent = TextLabel_2
 
 Page2.Name = "Page2"
 Page2.Parent = LolzLol
 Page2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Page2.BackgroundTransparency = 0.770
+Page2.BackgroundTransparency = 1.000
+Page2.BorderSizePixel = 0
 Page2.Position = UDim2.new(0.0122764641, 0, 0.196078435, 0)
 Page2.Size = UDim2.new(0, 396, 0, 196)
+Page2.Visible = false
 
 TextLabel_3.Parent = Page2
 TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -270,9 +292,9 @@ TextLabel_3.TextScaled = true
 TextLabel_3.TextSize = 14.000
 TextLabel_3.TextWrapped = true
 
-UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 247, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(115, 255, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
-UIGradient_4.Rotation = 90
-UIGradient_4.Parent = TextLabel_3
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 247, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(115, 255, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_3.Rotation = 90
+UIGradient_3.Parent = TextLabel_3
 
 CMDX.Name = "CMDX"
 CMDX.Parent = Page2
@@ -286,7 +308,7 @@ CMDX.TextScaled = true
 CMDX.TextSize = 14.000
 CMDX.TextWrapped = true
 
-UICorner_12.Parent = CMDX
+UICorner_10.Parent = CMDX
 
 SussyHub.Name = "SussyHub"
 SussyHub.Parent = Page2
@@ -300,7 +322,7 @@ SussyHub.TextScaled = true
 SussyHub.TextSize = 14.000
 SussyHub.TextWrapped = true
 
-UICorner_13.Parent = SussyHub
+UICorner_11.Parent = SussyHub
 
 NexusHub.Name = "NexusHub"
 NexusHub.Parent = Page2
@@ -314,7 +336,7 @@ NexusHub.TextScaled = true
 NexusHub.TextSize = 14.000
 NexusHub.TextWrapped = true
 
-UICorner_14.Parent = NexusHub
+UICorner_12.Parent = NexusHub
 
 SuperHuman.Name = "SuperHuman"
 SuperHuman.Parent = Page2
@@ -328,7 +350,7 @@ SuperHuman.TextScaled = true
 SuperHuman.TextSize = 14.000
 SuperHuman.TextWrapped = true
 
-UICorner_15.Parent = SuperHuman
+UICorner_13.Parent = SuperHuman
 
 FreeHatHub.Name = "FreeHatHub"
 FreeHatHub.Parent = Page2
@@ -342,7 +364,7 @@ FreeHatHub.TextScaled = true
 FreeHatHub.TextSize = 14.000
 FreeHatHub.TextWrapped = true
 
-UICorner_16.Parent = FreeHatHub
+UICorner_14.Parent = FreeHatHub
 
 Chat.Name = "Chat"
 Chat.Parent = Page2
@@ -356,13 +378,81 @@ Chat.TextScaled = true
 Chat.TextSize = 14.000
 Chat.TextWrapped = true
 
-UICorner_17.Parent = Chat
+UICorner_15.Parent = Chat
+
+OpenPage.Name = "OpenPage"
+OpenPage.Parent = LolzLol
+OpenPage.BackgroundColor3 = Color3.fromRGB(4, 255, 0)
+OpenPage.Position = UDim2.new(0.899262905, 0, 0.854901969, 0)
+OpenPage.Size = UDim2.new(0, 34, 0, 28)
+OpenPage.Font = Enum.Font.SourceSans
+OpenPage.Text = ">"
+OpenPage.TextColor3 = Color3.fromRGB(0, 0, 0)
+OpenPage.TextScaled = true
+OpenPage.TextSize = 14.000
+OpenPage.TextWrapped = true
+
+UICorner_16.Parent = OpenPage
+
+Reset.Name = "Reset"
+Reset.Parent = LolzLol
+Reset.BackgroundColor3 = Color3.fromRGB(4, 255, 0)
+Reset.Position = UDim2.new(0.00982803106, 0, 0.854901969, 0)
+Reset.Size = UDim2.new(0, 34, 0, 28)
+Reset.Font = Enum.Font.SourceSans
+Reset.Text = "RE"
+Reset.TextColor3 = Color3.fromRGB(0, 0, 0)
+Reset.TextScaled = true
+Reset.TextSize = 14.000
+Reset.TextWrapped = true
+
+UICorner_17.Parent = Reset
+
+PageSelector.Name = "PageSelector"
+PageSelector.Parent = LolzLol
+PageSelector.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PageSelector.Position = UDim2.new(0.98524946, 0, 0.254901975, 0)
+PageSelector.Size = UDim2.new(0, 158, 0, 180)
+PageSelector.Visible = false
+
+UICorner_18.CornerRadius = UDim.new(0, 10)
+UICorner_18.Parent = PageSelector
+
+TextLabel_4.Parent = PageSelector
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.0379967019, 0, 0, 0)
+TextLabel_4.Size = UDim2.new(0, 151, 0, 35)
+TextLabel_4.Font = Enum.Font.Oswald
+TextLabel_4.Text = "Pages"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 36.000
+TextLabel_4.TextWrapped = true
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 247, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(115, 255, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_4.Rotation = 90
+UIGradient_4.Parent = TextLabel_4
+
+Updates.Name = "Updates"
+Updates.Parent = PageSelector
+Updates.BackgroundColor3 = Color3.fromRGB(4, 255, 0)
+Updates.Position = UDim2.new(0.101287842, 0, 0.754901946, 0)
+Updates.Size = UDim2.new(0, 127, 0, 27)
+Updates.Font = Enum.Font.SourceSans
+Updates.Text = "Updates"
+Updates.TextColor3 = Color3.fromRGB(0, 0, 0)
+Updates.TextScaled = true
+Updates.TextSize = 14.000
+Updates.TextWrapped = true
+
+UICorner_19.Parent = Updates
 
 Credits.Name = "Credits"
-Credits.Parent = LolzLol
+Credits.Parent = PageSelector
 Credits.BackgroundColor3 = Color3.fromRGB(4, 255, 0)
-Credits.Position = UDim2.new(0.512415648, 0, 0.0287260171, 0)
-Credits.Size = UDim2.new(0, 79, 0, 28)
+Credits.Position = UDim2.new(0.101287842, 0, 0.566013038, 0)
+Credits.Size = UDim2.new(0, 127, 0, 27)
 Credits.Font = Enum.Font.SourceSans
 Credits.Text = "Credits"
 Credits.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -370,11 +460,267 @@ Credits.TextScaled = true
 Credits.TextSize = 14.000
 Credits.TextWrapped = true
 
-UICorner_18.Parent = Credits
+UICorner_20.Parent = Credits
+
+Page2_2.Name = "Page2"
+Page2_2.Parent = PageSelector
+Page2_2.BackgroundColor3 = Color3.fromRGB(4, 255, 0)
+Page2_2.Position = UDim2.new(0.101287842, 0, 0.377124161, 0)
+Page2_2.Size = UDim2.new(0, 127, 0, 27)
+Page2_2.Font = Enum.Font.SourceSans
+Page2_2.Text = "Page2"
+Page2_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Page2_2.TextScaled = true
+Page2_2.TextSize = 14.000
+Page2_2.TextWrapped = true
+
+UICorner_21.Parent = Page2_2
+
+Page1_2.Name = "Page1"
+Page1_2.Parent = PageSelector
+Page1_2.BackgroundColor3 = Color3.fromRGB(4, 255, 0)
+Page1_2.Position = UDim2.new(0.101287842, 0, 0.193790808, 0)
+Page1_2.Size = UDim2.new(0, 127, 0, 27)
+Page1_2.Font = Enum.Font.SourceSans
+Page1_2.Text = "Page 1"
+Page1_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Page1_2.TextScaled = true
+Page1_2.TextSize = 14.000
+Page1_2.TextWrapped = true
+
+UICorner_22.Parent = Page1_2
+
+PageSelectorFrame1.Name = "PageSelectorFrame1"
+PageSelectorFrame1.Parent = LolzLol
+PageSelectorFrame1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PageSelectorFrame1.Position = UDim2.new(0.98524946, 0, 0.254901975, 0)
+PageSelectorFrame1.Size = UDim2.new(0, 35, 0, 180)
+PageSelectorFrame1.Visible = false
+
+UICorner_23.CornerRadius = UDim.new(0, 10)
+UICorner_23.Parent = PageSelectorFrame1
+
+PageSelectorFrame2.Name = "PageSelectorFrame2"
+PageSelectorFrame2.Parent = LolzLol
+PageSelectorFrame2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PageSelectorFrame2.Position = UDim2.new(0.98524946, 0, 0.254901975, 0)
+PageSelectorFrame2.Size = UDim2.new(0, 65, 0, 180)
+PageSelectorFrame2.Visible = false
+
+UICorner_24.CornerRadius = UDim.new(0, 10)
+UICorner_24.Parent = PageSelectorFrame2
+
+PageSelectorFrame3.Name = "PageSelectorFrame3"
+PageSelectorFrame3.Parent = LolzLol
+PageSelectorFrame3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PageSelectorFrame3.Position = UDim2.new(0.98524946, 0, 0.254901975, 0)
+PageSelectorFrame3.Size = UDim2.new(0, 123, 0, 180)
+PageSelectorFrame3.Visible = false
+
+UICorner_25.CornerRadius = UDim.new(0, 10)
+UICorner_25.Parent = PageSelectorFrame3
+
+PageSelectorFrame4.Name = "PageSelectorFrame4"
+PageSelectorFrame4.Parent = LolzLol
+PageSelectorFrame4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PageSelectorFrame4.Position = UDim2.new(0.98524946, 0, 0.254901975, 0)
+PageSelectorFrame4.Size = UDim2.new(0, 158, 0, 180)
+PageSelectorFrame4.Visible = false
+
+UICorner_26.CornerRadius = UDim.new(0, 10)
+UICorner_26.Parent = PageSelectorFrame4
+
+PageCredits.Name = "PageCredits"
+PageCredits.Parent = LolzLol
+PageCredits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PageCredits.BackgroundTransparency = 1.000
+PageCredits.BorderSizePixel = 0
+PageCredits.Position = UDim2.new(0.00982800964, 0, 0.197965801, 0)
+PageCredits.Size = UDim2.new(0, 396, 0, 194)
+PageCredits.Visible = false
+
+TextLabel_5.Parent = PageCredits
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.040
+TextLabel_5.Position = UDim2.new(0, 0, 0.775510192, 0)
+TextLabel_5.Size = UDim2.new(0, 396, 0, 44)
+TextLabel_5.Font = Enum.Font.Oswald
+TextLabel_5.Text = "Credits"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 247, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(115, 255, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_5.Rotation = 90
+UIGradient_5.Parent = TextLabel_5
+
+TextLabel_6.Parent = PageCredits
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.040
+TextLabel_6.Position = UDim2.new(0, 0, -0.00284034014, 0)
+TextLabel_6.Size = UDim2.new(0, 396, 0, 44)
+TextLabel_6.Font = Enum.Font.Oswald
+TextLabel_6.Text = "Nexus - Scripter & UI Designer"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(197, 0, 3)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 12, 255))}
+UIGradient_6.Rotation = 59
+UIGradient_6.Parent = TextLabel_6
+
+TextLabel_7.Parent = PageCredits
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.040
+TextLabel_7.Position = UDim2.new(0, 0, 0.223963782, 0)
+TextLabel_7.Size = UDim2.new(0, 396, 0, 44)
+TextLabel_7.Font = Enum.Font.Oswald
+TextLabel_7.Text = "DevXternal - Scripter & Owner"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextWrapped = true
+
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(197, 0, 3)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 12, 255))}
+UIGradient_7.Rotation = 59
+UIGradient_7.Parent = TextLabel_7
+
+PageUpdates.Name = "PageUpdates"
+PageUpdates.Parent = LolzLol
+PageUpdates.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PageUpdates.BackgroundTransparency = 1.000
+PageUpdates.BorderSizePixel = 0
+PageUpdates.Position = UDim2.new(0.00982800964, 0, 0.197965801, 0)
+PageUpdates.Size = UDim2.new(0, 396, 0, 194)
+PageUpdates.Visible = false
+
+TextLabel_8.Parent = PageUpdates
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.040
+TextLabel_8.Position = UDim2.new(0, 0, 0.775510192, 0)
+TextLabel_8.Size = UDim2.new(0, 396, 0, 44)
+TextLabel_8.Font = Enum.Font.Oswald
+TextLabel_8.Text = "Updates"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextScaled = true
+TextLabel_8.TextSize = 14.000
+TextLabel_8.TextWrapped = true
+
+UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 247, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(115, 255, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_8.Rotation = 90
+UIGradient_8.Parent = TextLabel_8
+
+TextLabel_9.Parent = PageUpdates
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.040
+TextLabel_9.Position = UDim2.new(0, 0, -0.00284034014, 0)
+TextLabel_9.Size = UDim2.new(0, 396, 0, 44)
+TextLabel_9.Font = Enum.Font.Oswald
+TextLabel_9.Text = "Whats new in FlexuTek:"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextScaled = true
+TextLabel_9.TextSize = 14.000
+TextLabel_9.TextWrapped = true
+
+TextLabel_10.Parent = PageUpdates
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.040
+TextLabel_10.Position = UDim2.new(0, 0, 0.223963782, 0)
+TextLabel_10.Size = UDim2.new(0, 396, 0, 44)
+TextLabel_10.Font = Enum.Font.Oswald
+TextLabel_10.Text = "New Updates + Credit Page"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextScaled = true
+TextLabel_10.TextSize = 14.000
+TextLabel_10.TextWrapped = true
+
+TextLabel_11.Parent = PageUpdates
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.040
+TextLabel_11.Position = UDim2.new(0, 0, 0.424994707, 0)
+TextLabel_11.Size = UDim2.new(0, 396, 0, 44)
+TextLabel_11.Font = Enum.Font.Oswald
+TextLabel_11.Text = "New Page Selector"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextScaled = true
+TextLabel_11.TextSize = 14.000
+TextLabel_11.TextWrapped = true
+
+Login.Name = "Login"
+Login.Parent = FlexuTek
+Login.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Login.Position = UDim2.new(0.510005713, 0, 0.134836435, 0)
+Login.Size = UDim2.new(0, 195, 0, 254)
+
+UICorner_27.CornerRadius = UDim.new(0, 10)
+UICorner_27.Parent = Login
+
+TextLabel_12.Parent = Login
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.Size = UDim2.new(0, 195, 0, 50)
+TextLabel_12.Font = Enum.Font.Oswald
+TextLabel_12.Text = "FlexuTek Whitelist"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextScaled = true
+TextLabel_12.TextSize = 36.000
+TextLabel_12.TextWrapped = true
+
+UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 247, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(115, 255, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_9.Rotation = 90
+UIGradient_9.Parent = TextLabel_12
+
+Check.Name = "Check"
+Check.Parent = Login
+Check.BackgroundColor3 = Color3.fromRGB(4, 255, 0)
+Check.Position = UDim2.new(0.101287685, 0, 0.795275569, 0)
+Check.Size = UDim2.new(0, 154, 0, 35)
+Check.Font = Enum.Font.SourceSans
+Check.Text = "Login"
+Check.TextColor3 = Color3.fromRGB(0, 0, 0)
+Check.TextScaled = true
+Check.TextSize = 14.000
+Check.TextWrapped = true
+
+UICorner_28.Parent = Check
+
+Username.Name = "Username"
+Username.Parent = Login
+Username.BackgroundColor3 = Color3.fromRGB(4, 255, 0)
+Username.Position = UDim2.new(0.0974358991, 0, 0.255905509, 0)
+Username.Size = UDim2.new(0, 154, 0, 35)
+Username.Font = Enum.Font.SourceSans
+Username.PlaceholderColor3 = Color3.fromRGB(63, 63, 63)
+Username.PlaceholderText = "Username"
+Username.Text = ""
+Username.TextColor3 = Color3.fromRGB(0, 0, 0)
+Username.TextScaled = true
+Username.TextSize = 14.000
+Username.TextWrapped = true
+
+UICorner_29.Parent = Username
+
+Key.Name = "Key"
+Key.Parent = Login
+Key.BackgroundColor3 = Color3.fromRGB(4, 255, 0)
+Key.Position = UDim2.new(0.0974358991, 0, 0.468503952, 0)
+Key.Size = UDim2.new(0, 154, 0, 35)
+Key.Font = Enum.Font.SourceSans
+Key.PlaceholderColor3 = Color3.fromRGB(63, 63, 63)
+Key.PlaceholderText = "Key"
+Key.Text = ""
+Key.TextColor3 = Color3.fromRGB(0, 0, 0)
+Key.TextScaled = true
+Key.TextSize = 14.000
+Key.TextWrapped = true
+
+UICorner_30.Parent = Key
 
 -- Scripts:
 
-local function OXBWZ_fake_script() -- LolzLol.Dragify 
+local function NZWTDTT_fake_script() -- LolzLol.Dragify 
 	local script = Instance.new('LocalScript', LolzLol)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -417,8 +763,8 @@ local function OXBWZ_fake_script() -- LolzLol.Dragify
 		end
 	end)
 end
-coroutine.wrap(OXBWZ_fake_script)()
-local function PDRDVZW_fake_script() -- Close.LocalScript 
+coroutine.wrap(NZWTDTT_fake_script)()
+local function QKEAS_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -442,27 +788,31 @@ local function PDRDVZW_fake_script() -- Close.LocalScript
 		})
 	end)
 end
-coroutine.wrap(PDRDVZW_fake_script)()
-local function ROCEC_fake_script() -- Reset.LocalScript 
-	local script = Instance.new('LocalScript', Reset)
+coroutine.wrap(QKEAS_fake_script)()
+local function LDWUYOP_fake_script() -- ClosePage.1 
+	local script = Instance.new('LocalScript', ClosePage)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		game.Players.LocalPlayer.Character.Humanoid.Health = 0
-	end)
-end
-coroutine.wrap(ROCEC_fake_script)()
-local function OVBNFRD_fake_script() -- PageButton2.LocalScript 
-	local script = Instance.new('LocalScript', PageButton2)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Page2.Visible = true
-		script.Parent.Parent.Page1.Visible = false
+		script.Parent.Parent.PageSelectorFrame1.Visible = true
+		script.Parent.Parent.PageSelectorFrame2.Visible = true
+		script.Parent.Parent.PageSelectorFrame3.Visible = true
+		script.Parent.Parent.PageSelectorFrame4.Visible = true
+		script.Parent.Parent.PageSelector.Visible = false
+		wait(0.00001)
+		script.Parent.Parent.PageSelectorFrame4.Visible = false
+		wait(0.00001)
+		script.Parent.Parent.PageSelectorFrame3.Visible = false
+		wait(0.00001)
+		script.Parent.Parent.PageSelectorFrame2.Visible = false
+		wait(0.00001)
+		script.Parent.Parent.PageSelectorFrame1.Visible = false
 		script.Parent.Visible = false
-		script.Parent.Parent.PageButton1.Visible = true
+		script.Parent.Parent.OpenPage.Visible = true
+		wait(0.00001)
 	end)
 end
-coroutine.wrap(OVBNFRD_fake_script)()
-local function OEDLLG_fake_script() -- Fly.LocalScript 
+coroutine.wrap(LDWUYOP_fake_script)()
+local function KACFJD_fake_script() -- Fly.LocalScript 
 	local script = Instance.new('LocalScript', Fly)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -548,8 +898,8 @@ local function OEDLLG_fake_script() -- Fly.LocalScript
 		Fly()
 	end)
 end
-coroutine.wrap(OEDLLG_fake_script)()
-local function KOKLZN_fake_script() -- InfJump.LocalScript 
+coroutine.wrap(KACFJD_fake_script)()
+local function WJBI_fake_script() -- InfJump.LocalScript 
 	local script = Instance.new('LocalScript', InfJump)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -579,8 +929,8 @@ local function KOKLZN_fake_script() -- InfJump.LocalScript
 		end
 	end)
 end
-coroutine.wrap(KOKLZN_fake_script)()
-local function RJWPEY_fake_script() -- SUS.LocalScript 
+coroutine.wrap(WJBI_fake_script)()
+local function TVZAB_fake_script() -- SUS.LocalScript 
 	local script = Instance.new('LocalScript', SUS)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -594,16 +944,16 @@ local function RJWPEY_fake_script() -- SUS.LocalScript
 	
 	end)
 end
-coroutine.wrap(RJWPEY_fake_script)()
-local function EFSU_fake_script() -- Speed.LocalScript 
+coroutine.wrap(TVZAB_fake_script)()
+local function JGJRE_fake_script() -- Speed.LocalScript 
 	local script = Instance.new('LocalScript', Speed)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 150
 	end)
 end
-coroutine.wrap(EFSU_fake_script)()
-local function SFAH_fake_script() -- namelessv4.LocalScript 
+coroutine.wrap(JGJRE_fake_script)()
+local function DXYPBZ_fake_script() -- namelessv4.LocalScript 
 	local script = Instance.new('LocalScript', namelessv4)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1852,8 +2202,8 @@ local function SFAH_fake_script() -- namelessv4.LocalScript
 		end)
 	end)
 end
-coroutine.wrap(SFAH_fake_script)()
-local function HDBA_fake_script() -- chezburger.LocalScript 
+coroutine.wrap(DXYPBZ_fake_script)()
+local function HHCPU_fake_script() -- chezburger.LocalScript 
 	local script = Instance.new('LocalScript', chezburger)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1862,43 +2212,32 @@ local function HDBA_fake_script() -- chezburger.LocalScript
 		game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer('Mmm, chezburger.', 'All');
 	end)
 end
-coroutine.wrap(HDBA_fake_script)()
-local function WWKQIE_fake_script() -- PageButton1.LocalScript 
-	local script = Instance.new('LocalScript', PageButton1)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Page2.Visible = false
-		script.Parent.Parent.Page1.Visible = true
-		script.Parent.Visible = false
-		script.Parent.Parent.PageButton2.Visible = true
-	end)
-end
-coroutine.wrap(WWKQIE_fake_script)()
-local function HIGBCHW_fake_script() -- CMDX.LocalScript 
+coroutine.wrap(HHCPU_fake_script)()
+local function ERMZ_fake_script() -- CMDX.LocalScript 
 	local script = Instance.new('LocalScript', CMDX)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source', true))()
 	end)
 end
-coroutine.wrap(HIGBCHW_fake_script)()
-local function KLVJ_fake_script() -- SussyHub.LocalScript 
+coroutine.wrap(ERMZ_fake_script)()
+local function XEKW_fake_script() -- SussyHub.LocalScript 
 	local script = Instance.new('LocalScript', SussyHub)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet(('https://gist.githubusercontent.com/Nilrogram/8b0c8bd710be142f383c71f79279752c/raw/e4fb01a7de7cd498bb53270d2ad191dfab268a88/FE%2520SussyHub'),true))();
 	end)
 end
-coroutine.wrap(KLVJ_fake_script)()
-local function OGKXSZL_fake_script() -- NexusHub.LocalScript 
+coroutine.wrap(XEKW_fake_script)()
+local function ZWCGIR_fake_script() -- NexusHub.LocalScript 
 	local script = Instance.new('LocalScript', NexusHub)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/DevXternal/Nexus/main/Nexus.lua"))()
 	end)
 end
-coroutine.wrap(OGKXSZL_fake_script)()
-local function MMROE_fake_script() -- SuperHuman.LocalScript 
+coroutine.wrap(ZWCGIR_fake_script)()
+local function LYED_fake_script() -- SuperHuman.LocalScript 
 	local script = Instance.new('LocalScript', SuperHuman)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1909,29 +2248,175 @@ local function MMROE_fake_script() -- SuperHuman.LocalScript
 		end
 	end)
 end
-coroutine.wrap(MMROE_fake_script)()
-local function WCBCLDU_fake_script() -- FreeHatHub.LocalScript 
+coroutine.wrap(LYED_fake_script)()
+local function ETHOGN_fake_script() -- FreeHatHub.LocalScript 
 	local script = Instance.new('LocalScript', FreeHatHub)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://textbin.net/raw/vxrnz4q6p2"))();
 	end)
 end
-coroutine.wrap(WCBCLDU_fake_script)()
-local function KRUONT_fake_script() -- Chat.LocalScript 
+coroutine.wrap(ETHOGN_fake_script)()
+local function VEBKLMT_fake_script() -- Chat.LocalScript 
 	local script = Instance.new('LocalScript', Chat)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://the-shed.xyz/roblox/scripts/ChatBypass", true))()
 	end)
 end
-coroutine.wrap(KRUONT_fake_script)()
-local function DBPZ_fake_script() -- Credits.LocalScript 
+coroutine.wrap(VEBKLMT_fake_script)()
+local function NMDTJ_fake_script() -- OpenPage.2 
+	local script = Instance.new('LocalScript', OpenPage)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.PageSelectorFrame1.Visible = true
+		wait(0.00001)
+		script.Parent.Parent.PageSelectorFrame2.Visible = true
+		wait(0.00001)
+		script.Parent.Parent.PageSelectorFrame3.Visible = true
+		wait(0.00001)
+		script.Parent.Parent.PageSelectorFrame4.Visible = true
+		wait(0.00001)
+		script.Parent.Parent.PageSelectorFrame1.Visible = false
+		script.Parent.Parent.PageSelectorFrame2.Visible = false
+		script.Parent.Parent.PageSelectorFrame3.Visible = false
+		script.Parent.Parent.PageSelectorFrame4.Visible = false
+		script.Parent.Parent.PageSelector.Visible = true
+		script.Parent.Parent.ClosePage.Visible = true
+		script.Parent.Visible = false
+	end)
+end
+coroutine.wrap(NMDTJ_fake_script)()
+local function XRXFG_fake_script() -- Reset.LocalScript 
+	local script = Instance.new('LocalScript', Reset)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.Health = 0
+	end)
+end
+coroutine.wrap(XRXFG_fake_script)()
+local function WROUFVT_fake_script() -- Updates.LocalScript 
+	local script = Instance.new('LocalScript', Updates)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Page1 = script.Parent.Parent.Parent.Page1
+		local Page2 = script.Parent.Parent.Parent.Page2
+		local Credits = script.Parent.Parent.Parent.PageCredits
+		local Updates = script.Parent.Parent.Parent.PageUpdates
+		Page1.Visible = false
+		Page2.Visible = false
+		Credits.Visible = false
+		Updates.Visible = true
+	end)
+end
+coroutine.wrap(WROUFVT_fake_script)()
+local function UFXTDIT_fake_script() -- Credits.LocalScript 
 	local script = Instance.new('LocalScript', Credits)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		game.StarterGui:SetCore("SendNotification", {Title="Nexus"; Text="UI Designer & Scripter"; Duration=10;})
-		game.StarterGui:SetCore("SendNotification", {Title="github.com/DevXternal"; Text="UI Designer & Owner"; Duration=10;})
+		local Page1 = script.Parent.Parent.Parent.Page1
+		local Page2 = script.Parent.Parent.Parent.Page2
+		local Credits = script.Parent.Parent.Parent.PageCredits
+		local Updates = script.Parent.Parent.Parent.PageUpdates
+		Page1.Visible = false
+		Page2.Visible = false
+		Credits.Visible = true
+		Updates.Visible = false
 	end)
 end
-coroutine.wrap(DBPZ_fake_script)()
+coroutine.wrap(UFXTDIT_fake_script)()
+local function FWXLB_fake_script() -- Page2_2.LocalScript 
+	local script = Instance.new('LocalScript', Page2_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Page1 = script.Parent.Parent.Parent.Page1
+		local Page2 = script.Parent.Parent.Parent.Page2
+		local Credits = script.Parent.Parent.Parent.PageCredits
+		local Updates = script.Parent.Parent.Parent.PageUpdates
+		Page1.Visible = false
+		Page2.Visible = true
+		Credits.Visible = false
+		Updates.Visible = false
+	end)
+end
+coroutine.wrap(FWXLB_fake_script)()
+local function THVLFOG_fake_script() -- Page1_2.LocalScript 
+	local script = Instance.new('LocalScript', Page1_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Page1 = script.Parent.Parent.Parent.Page1
+		local Page2 = script.Parent.Parent.Parent.Page2
+		local Credits = script.Parent.Parent.Parent.PageCredits
+		local Updates = script.Parent.Parent.Parent.PageUpdates
+		Page1.Visible = true
+		Page2.Visible = false
+		Credits.Visible = false
+		Updates.Visible = false
+	end)
+end
+coroutine.wrap(THVLFOG_fake_script)()
+local function ZKKLL_fake_script() -- Check.LocalScript 
+	local script = Instance.new('LocalScript', Check)
+
+	local Player = game:GetService("Players")
+	script.Parent.MouseButton1Click:Connect(function()	
+		if script.Parent.Parent.Username.Text == game.Players.LocalPlayer.Name and script.Parent.Parent.Key.Text == "MemezLol" then
+			script.Parent.Parent.Visible = false
+			game.StarterGui:SetCore("SendNotification", {Title="Whitelist"; Text="Hol up while we whitelist you."; Duration=2;})
+			wait(2)
+			script.Parent.Parent.Parent["Lolz.Lol"].Visible = true
+		else
+			game.StarterGui:SetCore("SendNotification",  {
+				Title = "Bruh";
+				Text = "Wrong key bro or username.";
+				Icon = "rbxassetid://10089174956";
+				Duration = 3;
+			})
+		end
+	end)
+end
+coroutine.wrap(ZKKLL_fake_script)()
+local function LUGRE_fake_script() -- Login.Dragify 
+	local script = Instance.new('LocalScript', Login)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(LUGRE_fake_script)()
